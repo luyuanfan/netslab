@@ -1,0 +1,22 @@
+.footer {
+    width: 100%;
+    border-top: 1px solid #eeeeee;
+    padding: 10px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 20px;
+}
+
+.footer-content #jhu-logo {
+    width: 50px;
+}
+
+.footer-content p {
+    text-decoration: none;
+    color: grey;
+}

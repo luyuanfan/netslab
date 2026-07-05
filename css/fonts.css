@@ -1,0 +1,34 @@
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/oswald.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Alfa';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/alfa.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Bevan';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/bevan.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Bree';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/bree.ttf") format('truetype');
+}
+
+@font-face {
+    font-family: 'Patua';
+    font-style: normal;
+    font-weight: 400;
+    src: url("../fonts/patua.ttf") format('truetype');
+}
