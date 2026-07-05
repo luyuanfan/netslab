@@ -1,0 +1,42 @@
+.person {
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.person-header {
+    display: flex;
+    align-items: flex-end;
+    gap: 20px;
+}
+
+.person-header img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.person-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.person-info h2 {
+    margin: 0;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+}
+
+.links a, .links span {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.person-bio {
+    margin-top: 20px;
+}
