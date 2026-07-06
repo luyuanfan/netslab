@@ -1,6 +1,8 @@
 .item {
     margin-bottom: 40px;
     margin-top: 40px;
+    font-size: large;
+    font-family: inherit;
 }
 
 .item-header {
@@ -25,6 +27,12 @@
 
 .item-info h2 {
     margin: 0;
+    font-size: larger;
+}
+
+.item-bio {
+    margin-top: 20px;
+    font-size: large;
 }
 
 .links {
@@ -36,9 +44,4 @@
     text-decoration: none;
     color: #6c6c6c;
     font-weight: 200;
-    font-family: inherit;
-}
-
-.item-bio {
-    margin-top: 20px;
 }

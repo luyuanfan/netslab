@@ -38,3 +38,9 @@
     font-style: normal;
     src: url("../fonts/playfairdisplay.ttf") format('truetype');
 }
+
+@font-face {
+    font-family: 'Gill';
+    font-style: normal;
+    src: url("../fonts/gillsans.otf") format('opentype');
+}

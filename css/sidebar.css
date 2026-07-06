@@ -2,24 +2,33 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
+    gap: 1vw;
+}
+
+.two-panels .center-div {
+    width: 30vw;
+    margin: 0 10vw;
 }
 
 .project-index {
     width: 200px;
     position: relative;
     top: 200px;
+    margin-right: 5vw;
+    margin-left: 1vw;
 }
 
 .project-index ul {
     list-style: none;
     padding-left: 0;
+    font-size: large;
 }
 
 .project-index li {
-    margin: 8px 0;
+    margin: 15px 0;
 }
 
 .project-index a {
     text-decoration: none;
+    color: inherit;
 }

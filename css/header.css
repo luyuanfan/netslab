@@ -13,15 +13,8 @@
     position: relative;
     
     width: 100vw;
-    height: 200px;
+    height: 300px;
 }
-
-/* .wide-banner::after, .narrow-banner::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    box-shadow: inset 0 -20px 20px -15px rgba(197, 197, 197, 0.5);
-} */
 
 .wide-banner img, .narrow-banner img {
     width: 100vw;
@@ -35,16 +28,22 @@
     filter: blur(1px);
 }
 
-.over-banner-text {
+.logo-area {
+    font-family: 'Playfair';
+    color: #002c6e;
     position: absolute;
-    bottom: 50px;
-    left: 20%;
+    bottom: 5vh;
+    left: 25vw;
 }
 
-.logo-text {
-    font-family: 'Playfair';
-    font-size: xx-large;
-    color: #002c6e;
+.logo-large-text {
+    font-family: inherit;
+    font-size: 35px;
+}
+
+.logo-small-text {
+    font-family: inherit;
+    font-size: 20px;
 }
 
 .navbar {
@@ -56,16 +55,17 @@
 .navbar ul {
     display: flex;
     justify-content: center;
-    gap: 100px;
+    gap: 8vw;
     padding: 10px 0;
     list-style: none;
 
     text-transform: uppercase;
     color: #02274c;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill';
 }
 
 .navbar a {
     text-decoration: none;
     color: inherit;
+    padding: 10px;
 }
