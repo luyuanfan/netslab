@@ -1,28 +1,29 @@
-.person {
+.item {
     margin-bottom: 40px;
     margin-top: 40px;
 }
 
-.person-header {
+.item-header {
     display: flex;
     align-items: flex-end;
-    gap: 20px;
+    gap: 25px;
 }
 
-.person-header img {
-    width: 120px;
-    height: 120px;
+.item-header img {
+    width: 140px;
+    height: 140px;
     object-fit: cover;
     flex-shrink: 0;
+    border: 2px solid #ddd;
 }
 
-.person-info {
+.item-info {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.person-info h2 {
+.item-info h2 {
     margin: 0;
 }
 
@@ -34,9 +35,10 @@
 .links a, .links span {
     text-decoration: none;
     color: #6c6c6c;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    font-family: inherit;
 }
 
-.person-bio {
+.item-bio {
     margin-top: 20px;
 }

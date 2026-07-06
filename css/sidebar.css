@@ -1,0 +1,25 @@
+.two-panels {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.project-index {
+    width: 200px;
+    position: relative;
+    top: 200px;
+}
+
+.project-index ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-index li {
+    margin: 8px 0;
+}
+
+.project-index a {
+    text-decoration: none;
+}

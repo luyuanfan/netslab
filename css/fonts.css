@@ -32,3 +32,9 @@
     font-weight: 400;
     src: url("../fonts/patua.ttf") format('truetype');
 }
+
+@font-face {
+    font-family: 'Playfair';
+    font-style: normal;
+    src: url("../fonts/playfairdisplay.ttf") format('truetype');
+}
