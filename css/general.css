@@ -1,25 +1,20 @@
-body {
+body, html {
     width: 100vw;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
     
     background-color: snow;
-    font-family: 'Gill';
-}
 
-p {
-    font-family: inherit;
-    font-size: medium;
-    line-height: 1.4;
-    color: #484848;
+    font-family: 'Gill';
+    font-size: 16px
 }
 
 h1 {
     margin-top: 40px;
     
     font-family: inherit;
-    font-size: x-large;
+    font-size: 1.5rem;
     font-weight: 500;
     color: #02274c;
 }
@@ -27,17 +22,24 @@ h1 {
 h2 {
     margin-top: 30px;
 
-    font-size: large;
     font-family: inherit;
+    font-size: 1.25rem;
     font-weight: 500;
     color: #02274c;
 }
 
 h3 {
     font-family: inherit;
-    font-size: large;
+    font-size: 1.125rem;
     font-weight: 500;
     color: #02274c;
+}
+
+p {
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: #484848;
 }
 
 hr {
@@ -49,7 +51,7 @@ hr {
     justify-content: center;
     align-items: center;
 
-    width: 40vw;
+    width: min(50vw, 900px);
     padding: 10px;
     margin: 0 auto;
 }

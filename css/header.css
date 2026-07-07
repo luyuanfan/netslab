@@ -3,7 +3,7 @@
     align-items: center;
     position: relative;
     
-    width: 100vw;
+    width: 100%;
     height: 400px;
 }
 
@@ -12,20 +12,15 @@
     align-items: center;
     position: relative;
     
-    width: 100vw;
+    width: 100%;
     height: 300px;
 }
 
 .wide-banner img, .narrow-banner img {
-    width: 100vw;
+    width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
-    -webkit-filter: blur(3px);
-    -moz-filter: blur(3px);
-    -o-filter: blur(3px);
-    -ms-filter: blur(3px);
-    filter: blur(1px);
 }
 
 .logo-area {
@@ -33,21 +28,22 @@
     color: #002c6e;
     position: absolute;
     bottom: 5vh;
-    left: 25vw;
+    left: 40%;
+    transform: translateX(-50%);
 }
 
 .logo-large-text {
     font-family: inherit;
-    font-size: 35px;
+    font-size: clamp(1.25rem, 2.8vw, 1.75rem);
 }
 
 .logo-small-text {
     font-family: inherit;
-    font-size: 20px;
+    font-size: clamp(1rem, 1.8vw, 1.2rem);
 }
 
 .navbar {
-    width: 100vw;
+    width: 100%;
     border-top: 1px solid #eeeeee;
     border-bottom: 1px solid #eeeeee;
 }

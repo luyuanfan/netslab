@@ -1,7 +1,6 @@
 .item {
     margin-bottom: 40px;
     margin-top: 40px;
-    font-size: large;
     font-family: inherit;
 }
 
@@ -12,8 +11,8 @@
 }
 
 .item-header img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: auto;
     object-fit: cover;
     flex-shrink: 0;
     border: 2px solid #ddd;
@@ -27,12 +26,10 @@
 
 .item-info h2 {
     margin: 0;
-    font-size: larger;
 }
 
 .item-bio {
     margin-top: 20px;
-    font-size: large;
 }
 
 .links {
